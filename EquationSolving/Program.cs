@@ -1,49 +1,44 @@
 ﻿namespace EquationSolving;
 
-
-public class LinearEquation
+public class QuadraticEquation
 {
-
-}
-public class QuadraticEquation { 
-    public static double[] Solve(double A, double B, double C)
+    public static double[] Solve(double a, double b, double c)
     {
-        if (A == 0) throw new ArgumentOutOfRangeException("The 1st coefficient must not be 0");
-        double delta = B * B - 4 * A * C;
-        if(delta < 0)
+        if (a == 0) throw new ArgumentOutOfRangeException("a", "Coefficient of the quadratic term cannot be 0");
+        double delta = b * b - 4 * a * c;
+        if (delta < 0)
         {
-            return new double[] {};
+            return Array.Empty<double>();
         }
         if (delta == 0)
         {
-            return new double[] { (-B) / (2 * A) };
+            return new double[] { (-b) / (2 * a) };
         }
         else
         {
-            return new double[] { ((-B + (double)Math.Sqrt(delta)) / (2 * A)), ((-B - (double)Math.Sqrt(delta)) / (2 * A)) };
+            return new double[] { ((-b + (double)Math.Sqrt(delta)) / (2 * a)), ((-b - (double)Math.Sqrt(delta)) / (2 * a)) };
 
         }
     }
-}
 
-
-public class CubicEquation{
-}
-
-public class Program
-{
-    public static void Main()
+    public static double[] Solve_Po_Shen_Loh(double a, double b, double c)
     {
-        QuadraticEquation eq = new QuadraticEquation();
-        double[] result = new double[2];
-        result = QuadraticEquation.Solve(4,8,99);
-        foreach (double x in result)
+        if (a == 0) throw new ArgumentOutOfRangeException("a", "Coefficient of the quadratic term cannot be 0");
+        double tb = b;
+        double tc = c;
+        tb /= a;
+        tc /= a;
+        double mid = -tb / 2;
+        double w = mid * mid - tc;
+        if (w < 0)
         {
-            Console.WriteLine(x);
+            return Array.Empty<double>();
         }
-        Console.ReadLine();
+        if (w == 0)
+        {
+            return new double[] { mid };
+        }
+        double u = Math.Sqrt(mid * mid - tc);
+        return new double[] { mid + u, mid - u };
     }
 }
-
-
-
