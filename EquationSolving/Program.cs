@@ -1,7 +1,7 @@
 ﻿namespace EquationSolving;
 
 public class QuadraticEquation
-{
+{  
     public static double[] Solve(double a, double b, double c)
     {
         if (a == 0) throw new ArgumentOutOfRangeException("a", "Coefficient of the quadratic term cannot be 0");
@@ -40,5 +40,32 @@ public class QuadraticEquation
         }
         double u = Math.Sqrt(mid * mid - tc);
         return new double[] { mid + u, mid - u };
+    }
+}
+
+public class LinearEquation
+{
+    public static double[] LinearEquationSolve(double a, double b)
+    {
+        if (a == 0)
+        {
+            if (b != 0)
+            {
+                throw new ArgumentOutOfRangeException("The 1st coefficient must not be 0");
+            }
+            return new double[] { b };
+
+        }
+        else
+        {
+            if (b == 0)
+            {
+                return new double[] { 0 };
+            }
+            else
+            {
+                return new double[] { -b / a };
+            }
+        }
     }
 }
