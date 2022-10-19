@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\EquationSolvingUsingNUnit\\EquationSolvingTests\\EquationSolvingTests.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\EquationSolvingUsingNUnit\\EquationSolvingTests\\EquationSolving.UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\EquationSolvingUsingNUnit\\EquationSolvingTests\\EquationSolvingTests.csproj": {
+    "C:\\Users\\Admin\\Desktop\\EquationSolvingUsingNUnit\\EquationSolvingTests\\EquationSolving.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\EquationSolvingUsingNUnit\\EquationSolvingTests\\EquationSolvingTests.csproj",
-        "projectName": "EquationSolvingTests",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\EquationSolvingUsingNUnit\\EquationSolvingTests\\EquationSolvingTests.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\EquationSolvingUsingNUnit\\EquationSolvingTests\\EquationSolving.UnitTests.csproj",
+        "projectName": "EquationSolving.UnitTests",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\EquationSolvingUsingNUnit\\EquationSolvingTests\\EquationSolving.UnitTests.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Admin\\Desktop\\EquationSolvingUsingNUnit\\EquationSolvingTests\\obj\\",
         "projectStyle": "PackageReference",

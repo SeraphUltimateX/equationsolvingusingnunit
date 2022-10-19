@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\equationsolvingusingnunit\\EquationSolving\\EquationSolving.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\EquationSolvingUsingNUnit\\EquationSolving\\EquationSolving.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\equationsolvingusingnunit\\EquationSolving\\EquationSolving.csproj": {
+    "C:\\Users\\Admin\\Desktop\\EquationSolvingUsingNUnit\\EquationSolving\\EquationSolving.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\equationsolvingusingnunit\\EquationSolving\\EquationSolving.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\EquationSolvingUsingNUnit\\EquationSolving\\EquationSolving.csproj",
         "projectName": "EquationSolving",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\equationsolvingusingnunit\\EquationSolving\\EquationSolving.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\EquationSolvingUsingNUnit\\EquationSolving\\EquationSolving.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\equationsolvingusingnunit\\EquationSolving\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\EquationSolvingUsingNUnit\\EquationSolving\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

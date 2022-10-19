@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquationSolving", "EquationSolving\EquationSolving.csproj", "{ACEA1506-1575-4C7E-902C-A743CFCB8EE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EquationSolving", "EquationSolving\EquationSolving.csproj", "{ACEA1506-1575-4C7E-902C-A743CFCB8EE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquationSolvingTests", "EquationSolvingTests\EquationSolvingTests.csproj", "{3B702A94-D31F-45B3-8259-A76D25D33A12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EquationSolving.UnitTests", "EquationSolvingTests\EquationSolving.UnitTests.csproj", "{3B702A94-D31F-45B3-8259-A76D25D33A12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

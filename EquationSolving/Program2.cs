@@ -130,11 +130,11 @@ namespace PhuongTrinhBac3
             }
             return;
         }
-        public static void Main() 
+/*        public static void Main() 
         { 
             InputData();
             giaiPhuongTrinhBac3(a, b, c, d);
-        }
+        }*/
     }
 }
 
